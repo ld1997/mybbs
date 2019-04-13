@@ -1,0 +1,17 @@
+[ 2019-04-08T14:34:23+08:00 ] ::1 /mybbs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000682s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013940s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007221s ]
+
